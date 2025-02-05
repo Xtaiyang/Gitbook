@@ -4,8 +4,6 @@ icon: hand-wave
 
 # Gitbook
 
-#### 测试
-
 #### 一、openmv与opencv的区别如下：
 
 ```markdown
