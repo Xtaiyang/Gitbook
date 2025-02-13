@@ -1,4 +1,4 @@
-###  一、openmv与opencv的区别如下：
+#  一、openmv与opencv的区别如下：
 
 ```markdown
 1、openmv是一种硬件模块，opencv则是视觉库。
@@ -1720,10 +1720,10 @@ python manage.py inspectdb > ./APP名称/models.py
 - **kill结束或挂起一个进程**：
 
 		kill PID 结束进程
-	
+		
 		kill -9 PID强制结束
-	
-	          -stop 挂起进程
+		
+		      -stop 挂起进程
 
 - **&后台执行命令（后台不会影响当前终端）**
 
@@ -1732,13 +1732,13 @@ python manage.py inspectdb > ./APP名称/models.py
 - **jobs显示当前终端任务**
 
 		bg切换到后台
-	
+		
 		fg切换到前台
 
 - **top查看cpu利用率**
 
 		一秒刷新一次
-	
+		
 		q退出
 
 - **创建用户**（管理员权限）
@@ -1746,11 +1746,11 @@ python manage.py inspectdb > ./APP名称/models.py
   useradd （用户名）添加一个新用户或更新默认新用户信息
 
 		用户信息：名字 uid
-	
+		
 		组信息：组信息 gid
-	
+		
 		密码：密文etc/passwd
-	
+		
 		分别存到三个文件中
 
 - **userdel删除用户**
