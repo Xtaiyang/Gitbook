@@ -418,3 +418,21 @@ Pandoc 是一个功能强大且灵活的开源文档转换工具，由 John MacF
 - **开源生态**：拥有活跃的社区和丰富的插件资源。  
 - **跨平台**：适用于 Windows、macOS 和 Linux 等多种操作系统。  
 
+**dos2unix**
+
+dos2unix 是一个常用的命令行工具，用于将文件从 Windows 格式转换为 Unix/Linux 格式。主要区别在于：
+Windows 系统中，换行符是 \r\n（回车+换行）。
+Unix/Linux 系统中，换行符是 \n（仅换行）。
+该工具可以移除文件中的 Windows 特定字符，同时还能清理一些隐藏的非打印字符（如不间断空格 U+00A0）。
+命令执行和输出：
+
+你运行了命令 dos2unix funasr_demo.py。
+输出信息 dos2unix: converting file funasr_demo.py to Unix format... 表示工具正在将文件转换为 Unix 格式。
+如果没有报错，说明转换成功。
+
+可以使用 Python 脚本或其他工具进一步清理文件。例如：
+tr -d '\r' < funasr_demo.py > temp.py && mv temp.py funasr_demo.py
+这个命令会移除文件中的回车符。
+预防措施：
+
+如果你经常在 Windows 和 Linux 系统之间传输文件，建议在编辑文件时使用支持跨平台的编辑器（如 VSCode），并确保文件格式统一为 Unix 格式。
