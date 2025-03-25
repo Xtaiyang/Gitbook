@@ -436,3 +436,5 @@ tr -d '\r' < funasr_demo.py > temp.py && mv temp.py funasr_demo.py
 预防措施：
 
 如果你经常在 Windows 和 Linux 系统之间传输文件，建议在编辑文件时使用支持跨平台的编辑器（如 VSCode），并确保文件格式统一为 Unix 格式。
+
+https://yzd4tfgdksubh9tj2qqc.wgetcloud.online/link/42875bfd-dfd1-32e3-9716-02c0788965fb?target=clash
